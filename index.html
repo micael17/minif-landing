@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="miniF는 다양한 웹 서비스를 운영하는 개인 프로젝트입니다. 첫 번째 프로젝트 Macro Board를 운영 중입니다.">
+    <title>miniF | 개인 웹 프로젝트</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="topbar">
+          <h1 class="logo">miniF</h1>
+          <span class="domain">minif.net</span>
+        </div>
+        <nav class="nav" aria-label="주요 메뉴">
+          <a href="./index.html" aria-current="page">home</a>
+          <a href="./about.html">about</a>
+          <a href="./privacy.html">privacy</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro" aria-labelledby="intro-title">
+          <div>
+            <p class="kicker">개인 웹 프로젝트. 하나씩, 천천히.</p>
+            <h2 class="headline" id="intro-title">우리가 만드는 것들</h2>
+          </div>
+          <p class="lead">
+            미니프는 다양한 웹 서비스를 운영하는 개인 프로젝트입니다. 첫 번째 프로젝트로 거시 경제 대시보드 Macro Board를 운영 중입니다.
+          </p>
+        </section>
+
+        <section class="section" aria-labelledby="projects-title">
+          <div class="section-header">
+            <h2 class="section-title" id="projects-title">Projects</h2>
+            <p class="section-note">현재 공개된 서비스와 준비 중인 서브도메인입니다.</p>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card" href="https://chart.minif.net" aria-label="Macro Board 방문하기">
+              <span class="card-number">01 / live</span>
+              <div class="card-body">
+                <h3 class="card-title">Macro Board</h3>
+                <p class="card-domain">chart.minif.net</p>
+                <p class="card-description">
+                  실시간 국내외 시장 지표, S&amp;P 500/Nasdaq 100 트리맵, 증권사 리포트
+                </p>
+                <span class="card-action">방문하기 →</span>
+              </div>
+            </a>
+
+            <article class="project-card is-disabled" aria-label="준비 중인 프로젝트">
+              <span class="card-number">02 / soon</span>
+              <div class="card-body">
+                <h3 class="card-title">Coming Soon</h3>
+                <p class="card-domain">subdomain.minif.net</p>
+                <p class="card-description">준비 중인 프로젝트</p>
+                <span class="card-action">준비 중</span>
+              </div>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>© 2026 miniF. All rights reserved.</span>
+        <div class="footer-links">
+          <a href="./about.html">about</a>
+          <a href="./privacy.html">privacy</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
