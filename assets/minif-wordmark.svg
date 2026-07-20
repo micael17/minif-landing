@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 590 205" role="img" aria-labelledby="title">
+  <title id="title">minif</title>
+  <g transform="translate(13 -52)" fill="none" stroke="#111111" stroke-width="13" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M0 244V116 M0 146C0 124 15 112 36 112C59 112 72 128 72 151V244 M72 146C72 124 87 112 108 112C131 112 144 128 144 151V244"/>
+    <path d="M207 116V244"/>
+    <rect x="200.5" y="68" width="13" height="13" fill="#111111" stroke="none"/>
+    <path d="M270 244V116 M270 146C270 124 287 112 309 112C335 112 348 129 348 153V244"/>
+    <path d="M411 116V244"/>
+    <rect x="404.5" y="68" width="13" height="13" fill="#111111" stroke="none"/>
+    <path d="M489 244V111C489 82 506 66 535 66H563"/>
+    <path d="M458 116H548"/>
+  </g>
+</svg>
