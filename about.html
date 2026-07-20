@@ -4,85 +4,78 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="minif 프로젝트와 Macro Board 데이터 출처, 투자 유의사항을 안내합니다.">
-    <title>About | minif</title>
+    <title>About — minif</title>
     <link rel="icon" href="./assets/minif-favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&amp;family=Noto+Sans+KR:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <div class="site">
+    <div class="site-shell">
       <header class="site-header">
-        <div class="topbar">
-          <h1 class="logo">
-            <a class="logo-link" href="./index.html" aria-label="minif 홈">
-              <img class="logo-mark" src="./assets/minif-wordmark.svg" alt="minif">
-            </a>
-          </h1>
-          <span class="domain">minif.net</span>
-        </div>
+        <a class="brand" href="./index.html" aria-label="minif 홈">
+          <img class="brand-mark" src="./assets/minif-wordmark.svg" alt="minif">
+          <span class="brand-domain">minif.net</span>
+        </a>
         <nav class="nav" aria-label="주요 메뉴">
-          <a href="./index.html">home</a>
-          <a href="./about.html" aria-current="page">about</a>
-          <a href="./privacy.html">privacy</a>
+          <a href="./index.html#products">Products</a>
+          <a href="./about.html" aria-current="page">About</a>
+          <a href="https://portfolio-hub-a8g.pages.dev" target="_blank" rel="noopener">Portfolio ↗</a>
         </nav>
       </header>
 
       <main>
-        <section class="intro" aria-labelledby="about-title">
-          <div>
-            <p class="kicker">About minif</p>
-            <h2 class="headline" id="about-title">개인 웹 개발 프로젝트</h2>
-          </div>
-          <p class="lead">
-            minif는 작게 시작해 꾸준히 운영하는 개인 웹 서비스 프로젝트입니다. 필요한 정보를 간결하게 정리하고, 실제로 사용할 수 있는 도구를 만듭니다.
+        <section class="page-hero" aria-labelledby="about-title">
+          <p class="page-kicker">About / Product lab</p>
+          <h1 id="about-title">직접 만들고<br>실제로 운영합니다.</h1>
+          <p>
+            minif는 필요한 웹 서비스를 직접 만들고 운영하며, 사용하면서 발견한 문제를 꾸준히 개선하는 개인 프로젝트입니다.
           </p>
         </section>
 
-        <section class="section" aria-labelledby="about-content-title">
-          <div class="section-header">
-            <h2 class="section-title" id="about-content-title">Information</h2>
-            <p class="section-note">프로젝트 소개, 데이터 출처, 면책 문구입니다.</p>
+        <section class="information" aria-labelledby="information-title">
+          <div class="section-heading">
+            <p class="section-index">01</p>
+            <h2 id="information-title">Information</h2>
+            <p>제품과 운영 원칙</p>
           </div>
 
-          <div class="content-grid">
-            <article class="content-block">
-              <h2>Macro Board</h2>
-              <p>
-                Macro Board는 국내외 시장 지표를 한 화면에서 확인할 수 있는 거시 경제 대시보드입니다. S&amp;P 500, Nasdaq 100 트리맵과 주요 지표, 증권사 리포트 정보를 제공합니다.
-              </p>
+          <div class="information-list">
+            <article>
+              <p class="item-number">01</p>
+              <h3>minif</h3>
+              <p>아이디어를 전시하는 데 그치지 않고 실제 사용 가능한 제품으로 출시해 직접 운영합니다. 이곳에는 현재 서비스 중인 제품만 소개합니다.</p>
             </article>
-
-            <article class="content-block">
-              <h2>데이터 출처</h2>
-              <p>
-                서비스의 데이터는 KIS API, yfinance, Naver Finance 등을 기반으로 구성됩니다. 각 데이터는 제공처의 정책과 시스템 상태에 따라 지연되거나 변경될 수 있습니다.
-              </p>
+            <article>
+              <p class="item-number">02</p>
+              <h3>Macro Board</h3>
+              <p>현재 운영 중인 첫 번째 제품입니다. 국내외 시장 지표와 S&amp;P 500, Nasdaq 100 트리맵, 증권사 리포트를 한 화면에서 제공합니다.</p>
             </article>
-
-            <article class="content-block">
-              <h2>투자 유의</h2>
-              <p>
-                minif와 Macro Board에서 제공하는 모든 정보는 정보 제공 목적이며 투자 권유가 아닙니다. 투자 판단과 그에 따른 책임은 이용자 본인에게 있습니다.
-              </p>
+            <article>
+              <p class="item-number">03</p>
+              <h3>Operating principle</h3>
+              <p>필요한 기능부터 작게 출시하고, 실제 운영에서 확인한 문제와 피드백을 바탕으로 안정성과 사용성을 계속 개선합니다.</p>
             </article>
-
-            <article class="content-block">
-              <h2>문의</h2>
-              <p>
-                서비스 관련 문의는 <a href="mailto:minif@minif.net">minif@minif.net</a>으로 보내주세요.
-              </p>
+            <article>
+              <p class="item-number">04</p>
+              <h3>Contact</h3>
+              <p>서비스 관련 문의는 <a class="inline-link" href="mailto:minif@minif.net">minif@minif.net</a>으로 보내주세요.</p>
             </article>
           </div>
         </section>
       </main>
 
       <footer class="site-footer">
-        <span>© 2026 minif. All rights reserved.</span>
-        <div class="footer-links">
-          <a href="./index.html">home</a>
-          <a href="./privacy.html">privacy</a>
+        <div>
+          <img class="footer-mark" src="./assets/minif-wordmark.svg" alt="">
+          <span>Independent product lab</span>
+        </div>
+        <div class="footer-meta">
+          <a href="mailto:minif@minif.net">minif@minif.net</a>
+          <a href="https://portfolio-hub-a8g.pages.dev" target="_blank" rel="noopener">Portfolio ↗</a>
+          <a href="./privacy.html">Privacy</a>
+          <span>© 2026 minif</span>
         </div>
       </footer>
     </div>
