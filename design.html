@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="미니멀리즘, 글래스모피즘, 플랫 디자인, 뉴모피즘을 시각적 특징이 아닌 인터페이스 원칙과 사용 맥락으로 설명합니다.">
+    <meta name="google-adsense-account" content="ca-pub-9353405093450953">
+    <meta property="og:title" content="Interface Notes — minif">
+    <meta property="og:description" content="인터페이스 스타일을 유행이 아닌 목적과 맥락으로 읽는 네 가지 노트.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://minif.net/design.html">
+    <link rel="canonical" href="https://minif.net/design.html">
+    <title>Interface Notes — minif</title>
+    <link rel="icon" href="./assets/minif-favicon.svg" type="image/svg+xml">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9353405093450953" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&amp;family=Inter:wght@400;500;600&amp;family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&amp;family=Noto+Sans+KR:wght@400;500;600&amp;family=Noto+Serif+KR:wght@300;400&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./studio.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./index.html" aria-label="minif 홈">
+        <img class="brand-mark" src="./assets/minif-wordmark.svg" alt="minif">
+        <span class="brand-edition">Product studio</span>
+      </a>
+      <nav class="nav" aria-label="주요 메뉴">
+        <a href="./index.html#products">Products</a>
+        <a href="./design.html" aria-current="page">Interface Notes</a>
+        <a href="./about.html">Studio</a>
+      </nav>
+      <span class="header-location">Seoul · KR</span>
+    </header>
+
+    <main class="shell">
+      <section class="page-hero" aria-labelledby="page-title">
+        <p class="section-label">Interface notes / 01</p>
+        <h1 class="page-title" id="page-title">스타일을 넘어,<br><em>원칙을 읽는 법.</em></h1>
+        <div class="page-summary">
+          <p>인터페이스의 이름은 결과를 설명할 뿐입니다. 중요한 것은 어떤 문제를 해결하기 위해 그 표현을 선택했는지, 그리고 사용자의 이해와 조작에 어떤 영향을 주는지입니다.</p>
+          <span class="article-meta">12 min read · Updated 2026</span>
+        </div>
+      </section>
+
+      <div class="article-layout">
+        <aside class="article-aside">
+          <span class="section-label">Contents</span>
+          <nav aria-label="문서 목차">
+            <a href="#minimalism">01 · Minimalism</a>
+            <a href="#glassmorphism">02 · Glassmorphism</a>
+            <a href="#flat-design">03 · Flat Design</a>
+            <a href="#neumorphism">04 · Neumorphism</a>
+          </nav>
+        </aside>
+
+        <article class="article-body">
+          <p class="article-lead">디자인 스타일은 장식의 목록이 아니라 정보, 공간, 조작 가능성을 조직하는 선택의 체계다.</p>
+
+          <section class="term-section" id="minimalism" aria-labelledby="minimalism-title">
+            <div class="term-heading">
+              <span class="term-number">01</span>
+              <h2 id="minimalism-title">Minimalism</h2>
+            </div>
+            <div class="term-grid">
+              <div class="prose">
+                <p>미니멀리즘은 화면을 비워 보이게 만드는 취향이 아니다. 사용자가 목표에 도달하는 과정에서 불필요한 선택과 설명, 시각적 경쟁을 줄이는 편집 원칙이다. 여백이 많다는 사실보다 무엇을 남겼고 왜 남겼는지가 더 중요하다.</p>
+                <p>좋은 미니멀 인터페이스는 정보가 적어서 단순한 것이 아니라 정보의 우선순위가 명확해서 단순하게 느껴진다. 타이포그래피의 크기, 정렬, 간격만으로도 제목과 본문, 행동의 순서를 자연스럽게 전달한다.</p>
+                <h3>언제 유효한가</h3>
+                <p>사용 목적이 선명하고 반복적인 작업이 많은 도구, 제품의 이미지와 문장이 중심이 되는 브랜드 경험, 사용자가 한 번에 하나의 결정을 내려야 하는 흐름에 잘 맞는다. 반대로 정보 자체가 복잡한 대시보드에서 요소를 무작정 삭제하면 설명 가능성까지 사라질 수 있다.</p>
+                <div class="perspective">
+                  <span class="mini-label">minif perspective</span>
+                  <p>최소한의 요소가 아니라 최소한의 망설임을 목표로 한다. 필요한 정보라면 남기되, 서로 경쟁하지 않도록 위계를 설계한다.</p>
+                </div>
+              </div>
+              <div>
+                <div class="large-demo note-demo demo-minimal" aria-hidden="true"></div>
+                <ol class="principle-list">
+                  <li><strong>01</strong><span>하나의 화면에는 하나의 주된 목적을 둔다.</span></li>
+                  <li><strong>02</strong><span>여백을 빈 공간이 아닌 정보의 구두점으로 사용한다.</span></li>
+                  <li><strong>03</strong><span>삭제 전에 위계와 그룹을 먼저 정리한다.</span></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <section class="term-section" id="glassmorphism" aria-labelledby="glass-title">
+            <div class="term-heading">
+              <span class="term-number">02</span>
+              <h2 id="glass-title">Glassmorphism</h2>
+            </div>
+            <div class="term-grid">
+              <div class="prose">
+                <p>글래스모피즘은 반투명한 표면, 배경 블러, 가는 테두리와 부드러운 그림자로 깊이를 표현한다. 핵심은 유리처럼 보이는 효과가 아니라 앞과 뒤의 관계를 동시에 보여준다는 점이다.</p>
+                <p>배경의 색과 형태가 패널을 통과해 보이기 때문에 사용자는 패널이 별도의 계층에 떠 있다는 사실을 빠르게 인식한다. 지도 위 도구, 미디어 재생 제어, 이미지 중심 제품의 보조 정보처럼 맥락을 유지하면서 조작층을 올려야 할 때 효과적이다.</p>
+                <h3>주의할 점</h3>
+                <p>투명도가 지나치면 텍스트 대비가 약해지고, 많은 블러 효과는 저사양 기기에서 렌더링 비용을 높인다. 모든 카드를 유리로 만들면 깊이의 차이가 사라져 오히려 평면적으로 느껴진다. 실제 배경과 함께 대비를 검증해야 한다.</p>
+                <div class="perspective">
+                  <span class="mini-label">minif perspective</span>
+                  <p>글래스는 분위기를 만드는 재료이기 전에 계층을 설명하는 장치다. 배경의 맥락을 유지해야 하는 단 하나의 층에 제한적으로 사용한다.</p>
+                </div>
+              </div>
+              <div>
+                <div class="large-demo note-demo demo-glass" aria-hidden="true"><span class="glass-panel"></span></div>
+                <ol class="principle-list">
+                  <li><strong>01</strong><span>투명 표면 뒤에 인지 가능한 배경을 둔다.</span></li>
+                  <li><strong>02</strong><span>텍스트 대비는 효과가 아닌 실제 색 조합으로 검증한다.</span></li>
+                  <li><strong>03</strong><span>깊이가 필요한 소수의 레이어에만 적용한다.</span></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <section class="term-section" id="flat-design" aria-labelledby="flat-title">
+            <div class="term-heading">
+              <span class="term-number">03</span>
+              <h2 id="flat-title">Flat Design</h2>
+            </div>
+            <div class="term-grid">
+              <div class="prose">
+                <p>플랫 디자인은 현실의 재질과 입체감을 모사하던 스큐어모피즘에서 벗어나 색, 기하학적 형태, 아이콘과 타이포그래피로 직접 의미를 전달한다. 화면을 인쇄물처럼 평평하게 만든다는 뜻보다 디지털 인터페이스 자체의 문법을 받아들였다는 데 의미가 있다.</p>
+                <p>장식적 질감이 줄어들면 콘텐츠가 빠르게 로드되고 다양한 화면 크기에 유연하게 대응한다. 명확한 색 체계와 일관된 컴포넌트가 결합될 때 확장 가능한 디자인 시스템을 만들기 좋다.</p>
+                <h3>주의할 점</h3>
+                <p>입체 단서와 테두리를 모두 없애면 버튼과 일반 텍스트의 차이를 알아보기 어려워질 수 있다. 플랫 디자인은 단서가 없는 디자인이 아니다. 색상, 위치, 크기, 상태 변화로 조작 가능성을 충분히 보여줘야 한다.</p>
+                <div class="perspective">
+                  <span class="mini-label">minif perspective</span>
+                  <p>평평함 자체가 목적은 아니다. 장식 대신 일관된 규칙을 사용해 큰 제품에서도 예측 가능한 경험을 만드는 것이 핵심이다.</p>
+                </div>
+              </div>
+              <div>
+                <div class="large-demo note-demo demo-flat" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+                <ol class="principle-list">
+                  <li><strong>01</strong><span>색은 장식이 아니라 상태와 기능을 구분한다.</span></li>
+                  <li><strong>02</strong><span>반복 가능한 간격과 크기 체계를 먼저 정의한다.</span></li>
+                  <li><strong>03</strong><span>클릭 가능한 요소에는 분명한 행동 단서를 남긴다.</span></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+
+          <section class="term-section" id="neumorphism" aria-labelledby="neu-title">
+            <div class="term-heading">
+              <span class="term-number">04</span>
+              <h2 id="neu-title">Neumorphism</h2>
+            </div>
+            <div class="term-grid">
+              <div class="prose">
+                <p>뉴모피즘은 배경과 거의 같은 색의 요소에 밝고 어두운 두 방향의 그림자를 주어 표면에서 부드럽게 솟거나 눌린 듯한 형태를 만든다. 디지털 화면에 촉각적인 인상을 더하면서도 전통적인 사실 묘사보다 추상적인 형태를 유지한다.</p>
+                <p>물리적 조작의 감각이 중요한 오디오 컨트롤, 웰니스 기기, 제한된 수의 버튼을 가진 집중형 화면에서는 정서적이고 기억에 남는 인상을 만들 수 있다.</p>
+                <h3>주의할 점</h3>
+                <p>표면과 요소의 색 차이가 작아 경계와 상태가 불분명해지기 쉽다. 작은 텍스트나 복잡한 폼, 많은 버튼이 있는 업무 화면에는 적합하지 않다. 기본 상태와 눌린 상태, 키보드 포커스를 그림자만으로 구분해서도 안 된다.</p>
+                <div class="perspective">
+                  <span class="mini-label">minif perspective</span>
+                  <p>뉴모피즘은 전체 언어보다 하나의 촉각적 순간으로 사용할 때 힘이 있다. 접근성 단서를 보완하고 핵심 조작부에만 제한한다.</p>
+                </div>
+              </div>
+              <div>
+                <div class="large-demo note-demo demo-neumorph" aria-hidden="true"><span class="neu-button">PRESS</span></div>
+                <ol class="principle-list">
+                  <li><strong>01</strong><span>핵심 조작부처럼 범위가 좁은 영역에 사용한다.</span></li>
+                  <li><strong>02</strong><span>텍스트, 아이콘, 포커스 링으로 상태 단서를 보완한다.</span></li>
+                  <li><strong>03</strong><span>다양한 밝기의 화면과 실제 기기에서 대비를 확인한다.</span></li>
+                </ol>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img src="./assets/minif-wordmark.svg" alt="minif">
+        <span class="footer-label">Digital product studio<br>Seoul, Korea</span>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:minif@minif.net">minif@minif.net</a>
+        <a href="./index.html#products">Products</a>
+        <a href="./about.html">Studio</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <span>© 2026 minif</span>
+      </div>
+    </footer>
+  </body>
+</html>
